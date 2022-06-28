@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		239DEE60286B46B5004E0A12 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE5F286B46B5004E0A12 /* DataProvider.swift */; };
+		239DEE62286B5871004E0A12 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE61286B5871004E0A12 /* Airport.swift */; };
+		239DEE66286B5E91004E0A12 /* Airports.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE64286B5E91004E0A12 /* Airports.xcdatamodeld */; };
+		239DEE77286B648C004E0A12 /* RunwayEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE73286B648C004E0A12 /* RunwayEntity+CoreDataClass.swift */; };
+		239DEE78286B648C004E0A12 /* RunwayEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE74286B648C004E0A12 /* RunwayEntity+CoreDataProperties.swift */; };
+		239DEE79286B648C004E0A12 /* AirportEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE75286B648C004E0A12 /* AirportEntity+CoreDataClass.swift */; };
+		239DEE7A286B648C004E0A12 /* AirportEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DEE76286B648C004E0A12 /* AirportEntity+CoreDataProperties.swift */; };
 		239E90B8286B448D00CBEDC7 /* rain_finder_1_6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E90B7286B448D00CBEDC7 /* rain_finder_1_6App.swift */; };
 		239E90BA286B448D00CBEDC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E90B9286B448D00CBEDC7 /* ContentView.swift */; };
 		239E90BC286B448F00CBEDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239E90BB286B448F00CBEDC7 /* Assets.xcassets */; };
 		239E90BF286B448F00CBEDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239E90BE286B448F00CBEDC7 /* Preview Assets.xcassets */; };
+		239E90D1286B462F00CBEDC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239E90D0286B462F00CBEDC7 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		239DEE5F286B46B5004E0A12 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		239DEE61286B5871004E0A12 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		239DEE65286B5E91004E0A12 /* Airports.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airports.xcdatamodel; sourceTree = "<group>"; };
+		239DEE73286B648C004E0A12 /* RunwayEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RunwayEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		239DEE74286B648C004E0A12 /* RunwayEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RunwayEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		239DEE75286B648C004E0A12 /* AirportEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirportEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		239DEE76286B648C004E0A12 /* AirportEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirportEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		239E90B4286B448D00CBEDC7 /* rain_finder_1.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rain_finder_1.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239E90B7286B448D00CBEDC7 /* rain_finder_1_6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rain_finder_1_6App.swift; sourceTree = "<group>"; };
 		239E90B9286B448D00CBEDC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		239E90BB286B448F00CBEDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239E90BE286B448F00CBEDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		239E90D0286B462F00CBEDC7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,10 @@
 		239E90AB286B448D00CBEDC7 = {
 			isa = PBXGroup;
 			children = (
+				239DEE73286B648C004E0A12 /* RunwayEntity+CoreDataClass.swift */,
+				239DEE74286B648C004E0A12 /* RunwayEntity+CoreDataProperties.swift */,
+				239DEE75286B648C004E0A12 /* AirportEntity+CoreDataClass.swift */,
+				239DEE76286B648C004E0A12 /* AirportEntity+CoreDataProperties.swift */,
 				239E90B6286B448D00CBEDC7 /* rain_finder_1.6 */,
 				239E90B5286B448D00CBEDC7 /* Products */,
 			);
@@ -52,7 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				239E90B7286B448D00CBEDC7 /* rain_finder_1_6App.swift */,
+				239DEE64286B5E91004E0A12 /* Airports.xcdatamodeld */,
 				239E90B9286B448D00CBEDC7 /* ContentView.swift */,
+				239DEE61286B5871004E0A12 /* Airport.swift */,
+				239DEE5F286B46B5004E0A12 /* DataProvider.swift */,
+				239E90D0286B462F00CBEDC7 /* Persistence.swift */,
 				239E90BB286B448F00CBEDC7 /* Assets.xcassets */,
 				239E90BD286B448F00CBEDC7 /* Preview Content */,
 			);
@@ -138,7 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				239E90BA286B448D00CBEDC7 /* ContentView.swift in Sources */,
+				239E90D1286B462F00CBEDC7 /* Persistence.swift in Sources */,
+				239DEE7A286B648C004E0A12 /* AirportEntity+CoreDataProperties.swift in Sources */,
+				239DEE60286B46B5004E0A12 /* DataProvider.swift in Sources */,
+				239DEE62286B5871004E0A12 /* Airport.swift in Sources */,
 				239E90B8286B448D00CBEDC7 /* rain_finder_1_6App.swift in Sources */,
+				239DEE66286B5E91004E0A12 /* Airports.xcdatamodeld in Sources */,
+				239DEE78286B648C004E0A12 /* RunwayEntity+CoreDataProperties.swift in Sources */,
+				239DEE77286B648C004E0A12 /* RunwayEntity+CoreDataClass.swift in Sources */,
+				239DEE79286B648C004E0A12 /* AirportEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		239DEE64286B5E91004E0A12 /* Airports.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				239DEE65286B5E91004E0A12 /* Airports.xcdatamodel */,
+			);
+			currentVersion = 239DEE65286B5E91004E0A12 /* Airports.xcdatamodel */;
+			path = Airports.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 239E90AC286B448D00CBEDC7 /* Project object */;
 }
